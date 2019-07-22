@@ -1,0 +1,19 @@
+{
+  "name": "plop-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettify": "prettier --write",
+    "generate": "plop --plopfile generators/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "plop": "^2.4.0",
+    "prettier": "^1.18.2"
+  }
+}
